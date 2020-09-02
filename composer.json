@@ -1,10 +1,10 @@
 {
-    "name": "patinthehat/laravel-dynamic-relations",
-    "description": "dynamic relations for Laravel and Lumen",
+    "name": "paperscissors/laravel-dynamic-relations",
+    "description": "Dynamic relations for Laravel and Lumen",
     "keywords": ["laravel", "lumen", "relationships", "relations", "dynamic"],
     "license": "MIT",
     "require": {
-        "php": ">=5.6.4"
+        "php": ">=7.1"
     },
     "autoload": {
         "psr-4": {
