@@ -6,10 +6,11 @@ An extension of `Illuminate\Database\Eloquent\Model` that allows relationships t
 $prop = "myProp";
 $user->$prop->toArray();
 ```
+Fork from stale [patinthehat/laravel-dynamic-relations](https://github.com/patinthehat/laravel-dynamic-relations) repo.
 
 ####Installation
 
-Install with composer: `composer require patinthehat/laravel-dynamic-relations`
+Install with composer: `composer require paperscissors/laravel-dynamic-relations`
 
 ####Usage
 
