@@ -99,7 +99,7 @@ class DynamicModel extends Model
     {
         parent::__construct($attributes);
         if (is_null(static::$dynamicRelationDefaultKey)) {
-            static::$dynamicRelationDefaultKey = Str::snake(class_basename(static::class)) . '_id';
+            static::$dynamicRelationDefaultKey = Str::snake( class_basename(static::class) ) . '_id';
         }
     }
 
